@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento');
+
+.main {
+    margin-top: 75px; /* Add a top margin to avoid content overlay */
+  }
+
+.container-img {
+    background-image: url("https://assets.rbl.ms/14125095/980x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display-4, .lead {
+    text-align: center;
+    color: white;
+    font-family: 'Quattrocento', serif;
+    text-shadow: 3px 3px #161515;
+}
+
+.display-4 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+.lead {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    font-weight: bold;
+}
